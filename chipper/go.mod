@@ -1,4 +1,4 @@
-module github.com/kercre123/chipper
+module github.com/kirillgrishin-tech/chipper
 
 go 1.18
 
@@ -17,7 +17,7 @@ require (
 	github.com/Picovoice/leopard/binding/go v1.1.3
 	github.com/Picovoice/rhino/binding/go/v2 v2.1.5
 	github.com/alphacep/vosk-api/go v0.3.45
-	github.com/fforchino/vector-go-sdk v0.0.0-20221216080054-dfe1a258d335
+	github.com/kirillgrishin-tech/vector-go-sdk v0.0.0-20230507152203-3ac1820c0676
 	github.com/go-audio/audio v1.0.0
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/google/uuid v1.3.0
