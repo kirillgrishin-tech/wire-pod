@@ -17,7 +17,6 @@ require (
 	github.com/Picovoice/leopard/binding/go v1.1.3
 	github.com/Picovoice/rhino/binding/go/v2 v2.1.5
 	github.com/alphacep/vosk-api/go v0.3.45
-	github.com/kirillgrishin-tech/vector-go-sdk v0.0.0-20230507152203-3ac1820c0676
 	github.com/go-audio/audio v1.0.0
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/google/uuid v1.3.0
@@ -30,6 +29,7 @@ require (
 	github.com/currantlabs/ble v0.0.0-20171229162446-c1d21c164cf8 // indirect
 	github.com/go-audio/riff v1.0.0 // indirect
 	github.com/jamesruan/sodium v1.0.14 // indirect
+	github.com/kirillgrishin-tech/vector-go-sdk v0.0.0-20230507164609-2cfdb1f75b21 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect
