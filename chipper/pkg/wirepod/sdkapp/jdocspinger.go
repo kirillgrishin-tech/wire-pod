@@ -12,9 +12,9 @@ import (
 
 	"github.com/digital-dream-labs/api/go/jdocspb"
 	"github.com/digital-dream-labs/hugh/grpc/client"
-	"github.com/kercre123/chipper/pkg/logger"
-	jdocsserver "github.com/kercre123/chipper/pkg/servers/jdocs"
-	"github.com/kercre123/chipper/pkg/vars"
+	"github.com/kirillgrishin-tech/chipper/pkg/logger"
+	jdocsserver "github.com/kirillgrishin-tech/chipper/pkg/servers/jdocs"
+	"github.com/kirillgrishin-tech/chipper/pkg/vars"
 	"github.com/kirillgrishin-tech/vector-go-sdk/pkg/vector"
 	"github.com/kirillgrishin-tech/vector-go-sdk/pkg/vectorpb"
 )

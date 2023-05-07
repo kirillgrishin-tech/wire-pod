@@ -14,8 +14,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/kercre123/chipper/pkg/logger"
-	"github.com/kercre123/chipper/pkg/vars"
+	"github.com/kirillgrishin-tech/chipper/pkg/logger"
+	"github.com/kirillgrishin-tech/chipper/pkg/vars"
 )
 
 const (

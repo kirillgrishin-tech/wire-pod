@@ -4,8 +4,8 @@ import (
 	"time"
 
 	pb "github.com/digital-dream-labs/api/go/chipperpb"
-	"github.com/kercre123/chipper/pkg/logger"
-	"github.com/kercre123/chipper/pkg/vtt"
+	"github.com/kirillgrishin-tech/chipper/pkg/logger"
+	"github.com/kirillgrishin-tech/chipper/pkg/vtt"
 )
 
 // StreamingIntent handles voice streams

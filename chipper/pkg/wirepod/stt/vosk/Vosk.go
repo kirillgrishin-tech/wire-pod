@@ -6,9 +6,9 @@ import (
 	"strconv"
 
 	vosk "github.com/alphacep/vosk-api/go"
-	"github.com/kercre123/chipper/pkg/logger"
-	"github.com/kercre123/chipper/pkg/vars"
-	sr "github.com/kercre123/chipper/pkg/wirepod/speechrequest"
+	"github.com/kirillgrishin-tech/chipper/pkg/logger"
+	"github.com/kirillgrishin-tech/chipper/pkg/vars"
+	sr "github.com/kirillgrishin-tech/chipper/pkg/wirepod/speechrequest"
 )
 
 var Name string = "vosk"

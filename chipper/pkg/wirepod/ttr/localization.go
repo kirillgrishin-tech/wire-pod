@@ -1,6 +1,6 @@
 package wirepod_ttr
 
-import "github.com/kercre123/chipper/pkg/vars"
+import "github.com/kirillgrishin-tech/chipper/pkg/vars"
 
 const STR_WEATHER_IN = "str_weather_in"
 const STR_WEATHER_FORECAST = "str_weather_forecast"

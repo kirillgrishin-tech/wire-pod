@@ -4,11 +4,11 @@ import (
 	"strconv"
 
 	pb "github.com/digital-dream-labs/api/go/chipperpb"
-	"github.com/kercre123/chipper/pkg/logger"
-	"github.com/kercre123/chipper/pkg/vars"
-	"github.com/kercre123/chipper/pkg/vtt"
-	sr "github.com/kercre123/chipper/pkg/wirepod/speechrequest"
-	ttr "github.com/kercre123/chipper/pkg/wirepod/ttr"
+	"github.com/kirillgrishin-tech/chipper/pkg/logger"
+	"github.com/kirillgrishin-tech/chipper/pkg/vars"
+	"github.com/kirillgrishin-tech/chipper/pkg/vtt"
+	sr "github.com/kirillgrishin-tech/chipper/pkg/wirepod/speechrequest"
+	ttr "github.com/kirillgrishin-tech/chipper/pkg/wirepod/ttr"
 )
 
 func (s *Server) ProcessIntentGraph(req *vtt.IntentGraphRequest) (*vtt.IntentGraphResponse, error) {

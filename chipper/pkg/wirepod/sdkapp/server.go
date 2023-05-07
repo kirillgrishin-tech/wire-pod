@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kercre123/chipper/pkg/logger"
-	"github.com/kercre123/chipper/pkg/vars"
-	botsetup "github.com/kercre123/chipper/pkg/wirepod/setup"
+	"github.com/kirillgrishin-tech/chipper/pkg/logger"
+	"github.com/kirillgrishin-tech/chipper/pkg/vars"
+	botsetup "github.com/kirillgrishin-tech/chipper/pkg/wirepod/setup"
 	"github.com/kirillgrishin-tech/vector-go-sdk/pkg/vectorpb"
 )
 

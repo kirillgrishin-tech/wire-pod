@@ -6,10 +6,10 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/kercre123/chipper/pkg/logger"
-	"github.com/kercre123/chipper/pkg/vars"
-	sr "github.com/kercre123/chipper/pkg/wirepod/speechrequest"
-	ttr "github.com/kercre123/chipper/pkg/wirepod/ttr"
+	"github.com/kirillgrishin-tech/chipper/pkg/logger"
+	"github.com/kirillgrishin-tech/chipper/pkg/vars"
+	sr "github.com/kirillgrishin-tech/chipper/pkg/wirepod/speechrequest"
+	ttr "github.com/kirillgrishin-tech/chipper/pkg/wirepod/ttr"
 )
 
 // Server stores the config

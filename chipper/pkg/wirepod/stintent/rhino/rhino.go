@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	rhino "github.com/Picovoice/rhino/binding/go/v2"
-	"github.com/kercre123/chipper/pkg/logger"
-	sr "github.com/kercre123/chipper/pkg/wirepod/speechrequest"
+	"github.com/kirillgrishin-tech/chipper/pkg/logger"
+	sr "github.com/kirillgrishin-tech/chipper/pkg/wirepod/speechrequest"
 )
 
 // experimental, not officially supported

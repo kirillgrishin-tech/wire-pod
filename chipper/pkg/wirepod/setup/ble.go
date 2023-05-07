@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/digital-dream-labs/vector-bluetooth/ble"
-	"github.com/kercre123/chipper/pkg/logger"
+	"github.com/kirillgrishin-tech/chipper/pkg/logger"
 )
 
 // need JSONable type

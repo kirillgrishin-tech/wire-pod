@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/digital-dream-labs/api/go/jdocspb"
-	"github.com/kercre123/chipper/pkg/logger"
+	"github.com/kirillgrishin-tech/chipper/pkg/logger"
 )
 
 // initialize variables so they don't have to be found during runtime
@@ -28,7 +28,7 @@ var BotInfo RobotInfoStore
 var CustomIntents IntentsStruct
 var CustomIntentsExist bool = false
 var DownloadedVoskModels []string
-var ValidVoskModels []string = []string{"en-US", "it-IT", "es-ES", "fr-FR", "de-DE","pt-BR"}
+var ValidVoskModels []string = []string{"en-US", "it-IT", "es-ES", "fr-FR", "de-DE", "pt-BR"}
 
 type RobotInfoStore struct {
 	GlobalGUID string `json:"global_guid"`

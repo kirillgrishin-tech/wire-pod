@@ -10,9 +10,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/kercre123/chipper/pkg/logger"
-	tokenserver "github.com/kercre123/chipper/pkg/servers/token"
-	"github.com/kercre123/chipper/pkg/vars"
+	"github.com/kirillgrishin-tech/chipper/pkg/logger"
+	tokenserver "github.com/kirillgrishin-tech/chipper/pkg/servers/token"
+	"github.com/kirillgrishin-tech/chipper/pkg/vars"
 	"google.golang.org/grpc/peer"
 	"gopkg.in/ini.v1"
 )
