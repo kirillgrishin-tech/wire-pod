@@ -72,11 +72,11 @@ func newRobot(serial string) (Robot, int, error) {
 	}
 
 	// connection check
-	_, err = RobotObj.Vector.Conn.BatteryState(context.Background(), &vectorpb.BatteryStateRequest{})
-	if err != nil {
-		inhibitCreation = false
-		return RobotObj, 0, err
-	}
+	//_, err = RobotObj.Vector.Conn.BatteryState(context.Background(), &vectorpb.BatteryStateRequest{})
+	//if err != nil {
+	//	inhibitCreation = false
+	//	return RobotObj, 0, err
+	//}
 
 	// create client for event stream
 	RobotObj.EventStreamClient, err = RobotObj.Vector.Conn.EventStream(
